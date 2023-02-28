@@ -44,8 +44,8 @@ function sendBookingEmail(booking) {
     // });
       console.log('sending email', email)
     transporter.sendMail({
-        from: "jhankar.mahbub2@gmail.com", // verified sender email
-        to: email || 'jhankar.mahbub2@gmail.com', // recipient email
+        from: "smahaduzzaman96@gmail.com", // verified sender email
+        to: email || 'smahaduzzaman96@gmail.com', // recipient email
         subject: `Your appointment for ${treatment} is confirmed`, // Subject line
         text: "Hello world!", // plain text body
         html: `
